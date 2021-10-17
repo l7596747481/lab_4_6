@@ -13,11 +13,9 @@ int main()
 		P = 1;
 		i = j * j;
 		while (i <= 400)
-
 		{
 			P *= i;
 			i++;
-
 		}
 		S += j / (pow(j, 2) + P);
 		j++;
@@ -43,23 +41,19 @@ int main()
 
 	S = 0;
 	for (j = 2; j <= 20; j++)
-
 	{
 		P = 1;
 		for (i = j*j; i <= 400; i++)
-
 		{
 			P *= i;
 
 		}
 		S += j / (pow(j, 2) + P);
-
 	}
 	cout << S << endl;
 
 	S = 0;
-	for (j = 20; j >= 2; j--
-		)
+	for (j = 20; j >= 2; j--)
 
 	{
 		P = 1;
