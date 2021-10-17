@@ -8,7 +8,6 @@ int main()
 	S = 0;
 	j = 2;
 	while (j <= 20)
-
 	{
 		P = 1;
 		i = j * j;
